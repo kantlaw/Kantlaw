@@ -14,9 +14,7 @@
 ```python
 class Kantlaw:
     role     = ["AI Red Teamer", "Pentester", "AI Security Researcher"]
-    location = "Panamá 🇵🇦"
     focus    = ["Adversarial ML", "LLM Security", "Web Exploitation"]
-    tools    = ["Kali Linux", "Python", "Burp Suite", "Obsidian"]
     certs    = ["CyberWarfare CRT-ID", "CyberWarfare AD-RTS", "HackNode Ethical Hacker"]
     motto    = "Break AI to make AI safer."
 ```
@@ -25,7 +23,7 @@ class Kantlaw:
 
 ---
 
-### 🎯 What I'm Focused On
+###  What I'm Focused On
 
 <table>
 <tr>
@@ -67,7 +65,7 @@ AI Blue Team Ops
 
 ---
 
-### 🛠️ Skills & Tools
+### Skills & Tools
 
 **Offensive & AI Security**
 
@@ -102,16 +100,11 @@ AI Blue Team Ops
 
 <div align="center">
 
-<img src="https://i.pinimg.com/originals/4f/0a/96/4f0a962300ed883b1403de6fbfeaa461.gif" alt="gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/kantlaw/Kantlaw/main/4f0a962300ed883b1403de6fbfeaa461.gif" alt="gif" width="100%"/>
 
 </div>
 
----
-
----
 
 <div align="center">
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,50:001a2e,100:000000&height=120&section=footer)
 
 </div>
