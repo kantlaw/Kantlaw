@@ -15,7 +15,7 @@
 class Kantlaw:
     role     = ["AI Red Teamer", "Pentester", "AI Security Researcher"]
     focus    = ["Adversarial ML", "LLM Security", "Web Exploitation"]
-    certs    = ["CyberWarfare CRT-ID", "CyberWarfare AD-RTS", "HackNode Ethical Hacker"]
+    certs    = ["CyberWarfare AD-RTS", "HackNode Ethical Hacker"]
     motto    = "Break AI to make AI safer."
 ```
 
@@ -91,8 +91,6 @@ AI Blue Team Ops
 ---
 
 ### 🏅 Certifications & Platforms
-
-[![CyberWarfare](https://img.shields.io/badge/CyberWarfare-CRT--ID-000000?style=for-the-badge&logo=hackaday&logoColor=00D4FF)](https://cyberwarfare.live)
 [![CyberWarfare](https://img.shields.io/badge/CyberWarfare-AD--RTS-000000?style=for-the-badge&logo=hackaday&logoColor=00D4FF)](https://cyberwarfare.live)
 [![HackNode](https://img.shields.io/badge/HackNode-Ethical_Hacker-000000?style=for-the-badge&logo=hackthebox&logoColor=00D4FF)](https://hacknode.net)
 [![HackTheBox](https://img.shields.io/badge/HackTheBox-Active-000000?style=for-the-badge&logo=hackthebox&logoColor=00D4FF)](https://app.hackthebox.com)
