@@ -29,7 +29,7 @@ class Kantlaw:
 <tr>
 <td align="center" width="33%">
 
-**🔴 AI Red Teaming**
+**AI Red Teaming**
 <br/>
 Prompt Injection · Jailbreaking
 <br/>
@@ -40,7 +40,7 @@ OWASP LLM Top 10
 </td>
 <td align="center" width="33%">
 
-**⚡ Pentesting**
+**Pentesting**
 <br/>
 Web Exploitation · LFI/RFI
 <br/>
@@ -51,7 +51,7 @@ SSTI · Log Poisoning
 </td>
 <td align="center" width="33%">
 
-**🤖 AI Security**
+**AI Security**
 <br/>
 MITRE ATLAS · Garak · PyRIT
 <br/>
