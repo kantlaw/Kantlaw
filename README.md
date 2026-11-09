@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bitcount+Grid+Single+Ink&weight=700&size=32&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=WELCOME+TO+MY+PROFILE;RED+TEAM+OPERATOR+%2F+PENTESTER;ACTIVE+DIRECTORY+%7C+LATERAL+MOVEMENT;BREAKING+THINGS+TO+FIX+THEM;AI+RED+TEAMING+%7C+LLM+SECURITY)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bitcount+Grid+Single+Ink&weight=700&size=32&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=WELCOME+TO+MY+PROFILE;RED+TEAM+OPERATOR+%2F+PENTESTER;ACTIVE+DIRECTORY+%7C+LATERAL+MOVEMENT;WEB+EXPLOITATION+%7C+PRIV+ESC;BREAKING+THINGS+TO+FIX+THEM)](https://git.io/typing-svg)
 
 </div>
 
@@ -12,16 +12,15 @@
 
 ```python
 class Kantlaw:
-    role     = ["Red Team Operator", "Penetration Tester",
-                "AI Security Researcher"]
+    role     = ["Red Team Operator", "Penetration Tester"]
     focus    = ["Active Directory Attacks", "Lateral Movement",
                 "Privilege Escalation", "Web Exploitation",
-                "Adversarial ML", "LLM Security"]
+                "Post-Exploitation", "Pivoting"]
     certs    = ["CRTA — Certified Red Team Analyst"]
     learning = ["HTB CPTS (in progress)", "Kerberos Attacks"]
-    stack    = ["Impacket", "BloodHound", "NetExec", "Burp Suite",
-                "Rubeus", "Python", "Garak", "PyRIT"]
-    motto    = "From a foothold to Domain Admin — then make it safer."
+    stack    = ["Impacket", "BloodHound", "NetExec", "Rubeus",
+                "Burp Suite", "Responder", "Python"]
+    motto    = "From a foothold to Domain Admin."
 
     def current_mission(self):
         return "Mastering full-scope AD compromise on the road to CPTS."
@@ -45,11 +44,11 @@ Kerberoasting · AS-REP Roasting
 <br/>
 ACL Abuse · DCSync
 <br/>
-Lateral Movement · Pass-the-Hash
+Domain Trusts · ExtraSIDs
+<br/>
+Golden / Silver Tickets
 <br/>
 Pivoting & Tunneling
-<br/>
-Credential Harvesting
 
 </td>
 <td align="center" width="33%">
@@ -71,19 +70,19 @@ JWT Attacks
 </td>
 <td align="center" width="33%">
 
-**🤖 AI Red Teaming**
+**🛠️ Post-Ex & Tradecraft**
 <br/><br/>
-Prompt Injection · Jailbreaking
+Credential Harvesting
 <br/>
-Indirect PI via RAG / API
+LSASS / DPAPI / Cached
 <br/>
-Tool-use & Agent Hijacking
+Pass-the-Hash / Ticket
 <br/>
-Guardrail Evasion Testing
+Linux & Windows PrivEsc
 <br/>
-OWASP LLM Top 10
+SeImpersonate Abuse
 <br/>
-MITRE ATLAS
+Reporting & Remediation
 
 </td>
 </tr>
@@ -107,7 +106,7 @@ MITRE ATLAS
 │  LATERAL      │  DOMAIN DOMINANCE │  OBJECTIVE                   │
 │               │                   │                              │
 │ ► Pass-the-   │ ► Kerberoasting   │ ► Data Exfiltration          │
-│   Hash / Tkt  │ ► DCSync          │ ► secret.xml / flags         │
+│   Hash / Tkt  │ ► DCSync          │ ► Flags / secret.xml         │
 │ ► Pivoting    │ ► Golden Ticket   │ ► Persistence                │
 │   (SOCKS)     │ ► krbtgt extract  │ ► Report & Remediation       │
 └───────────────┴───────────────────┴──────────────────────────────┘
@@ -117,67 +116,41 @@ MITRE ATLAS
 
 ### 🔬 Methodologies & Frameworks
 
-<table>
-<tr>
-<td width="50%">
-
-**Traditional Offensive**
-<br/><br/>
-🔸 PTES (Penetration Testing Standard)
+🔸 PTES — Penetration Testing Execution Standard
 <br/>
 🔸 MITRE ATT&CK
 <br/>
 🔸 OWASP Testing Guide / Top 10
 <br/>
-🔸 Active Directory Attack Paths
+🔸 Active Directory Attack Paths (BloodHound)
 <br/>
 🔸 CWE / CVE Research
-
-</td>
-<td width="50%">
-
-**Offensive AI**
-<br/><br/>
-🔸 OWASP Top 10 for LLM Applications
-<br/>
-🔸 OWASP Top 10 for Agentic Applications
-<br/>
-🔸 MITRE ATLAS (Adversarial Threat Landscape)
-<br/>
-🔸 NIST AI Risk Management Framework
-<br/>
-🔸 AI Vulnerability Taxonomy (AVID)
-
-</td>
-</tr>
-</table>
 
 ---
 
 ### 🛠️ Skills & Tools
 
-**Red Team & Pentesting**
+**Recon & Web**
 
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-000000?style=for-the-badge&logo=kali-linux&logoColor=00D4FF)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-000000?style=for-the-badge&logo=burpsuite&logoColor=00D4FF)
-![BloodHound](https://img.shields.io/badge/BloodHound-000000?style=for-the-badge&logo=hackthebox&logoColor=00D4FF)
-![Metasploit](https://img.shields.io/badge/Metasploit-000000?style=for-the-badge&logo=metasploit&logoColor=00D4FF)
-![Wireshark](https://img.shields.io/badge/Wireshark-000000?style=for-the-badge&logo=wireshark&logoColor=00D4FF)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-000000?style=for-the-badge&logo=kalilinux&logoColor=00D4FF)
 ![Nmap](https://img.shields.io/badge/Nmap-000000?style=for-the-badge&logo=nmap&logoColor=00D4FF)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-000000?style=for-the-badge&logo=burpsuite&logoColor=00D4FF)
+![ffuf](https://img.shields.io/badge/ffuf-000000?style=for-the-badge)
+![Wireshark](https://img.shields.io/badge/Wireshark-000000?style=for-the-badge&logo=wireshark&logoColor=00D4FF)
 
-**AI & LLM Tooling**
+**Active Directory & Post-Ex**
 
-![Garak](https://img.shields.io/badge/Garak-000000?style=for-the-badge&logo=gnubash&logoColor=00D4FF)
-![PyRIT](https://img.shields.io/badge/PyRIT-000000?style=for-the-badge&logo=microsoft&logoColor=00D4FF)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-000000?style=for-the-badge&logo=huggingface&logoColor=00D4FF)
-![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00D4FF)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=00D4FF)
-![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=for-the-badge&logo=pytorch&logoColor=00D4FF)
+![BloodHound](https://img.shields.io/badge/BloodHound-000000?style=for-the-badge)
+![Impacket](https://img.shields.io/badge/Impacket-000000?style=for-the-badge)
+![NetExec](https://img.shields.io/badge/NetExec-000000?style=for-the-badge)
+![Rubeus](https://img.shields.io/badge/Rubeus-000000?style=for-the-badge)
+![Responder](https://img.shields.io/badge/Responder-000000?style=for-the-badge)
+![Metasploit](https://img.shields.io/badge/Metasploit-000000?style=for-the-badge&logo=metasploit&logoColor=00D4FF)
 
 **Workflow**
 
 ![Obsidian](https://img.shields.io/badge/Obsidian-000000?style=for-the-badge&logo=obsidian&logoColor=00D4FF)
-![VS Code](https://img.shields.io/badge/VS_Code-000000?style=for-the-badge&logo=visual-studio-code&logoColor=00D4FF)
+![VS Code](https://img.shields.io/badge/VS_Code-000000?style=for-the-badge&logo=visualstudiocode&logoColor=00D4FF)
 ![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=00D4FF)
 ![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=00D4FF)
 ![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=00D4FF)
@@ -186,9 +159,9 @@ MITRE ATLAS
 
 ### 🏅 Certifications & Platforms
 
-[![CRTA](https://img.shields.io/badge/CyberWarfare-CRTA_Certified_Red_Team_Analyst-000000?style=for-the-badge&logo=hackaday&logoColor=00D4FF)](https://cyberwarfare.live)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox-CPTS_in_progress-000000?style=for-the-badge&logo=hackthebox&logoColor=00D4FF)](https://app.hackthebox.com)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-Active-000000?style=for-the-badge&logo=tryhackme&logoColor=00D4FF)](https://tryhackme.com/p/Kantlaw)
+![CRTA](https://img.shields.io/badge/CyberWarfare-CRTA_Certified_Red_Team_Analyst-00D4FF?style=for-the-badge&labelColor=000000)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-CPTS_in_progress-9FEF00?style=for-the-badge&labelColor=000000)](https://app.hackthebox.com)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Active-212C42?style=for-the-badge&logo=tryhackme&logoColor=00D4FF)](https://tryhackme.com/p/Kantlaw)
 
 ---
 
@@ -199,14 +172,24 @@ MITRE ATLAS
  ║  > Full-scope Active Directory compromise (CPTS prep)   ║
  ║  > Advanced Kerberos attacks & delegation abuse         ║
  ║  > Pivoting, tunneling & multi-host lateral movement    ║
- ║  > AI red teaming: prompt injection & agent hijacking   ║
- ║  > Automated red teaming pipelines (Garak + PyRIT)      ║
+ ║  > Credential harvesting (LSASS / DPAPI / cached)       ║
+ ║  > Web exploitation deep-dive (SQLi → RCE)              ║
  ╚══════════════════════════════════════════════════════════╝
 ```
 
 ---
 
 <div align="center">
+
+<img src="https://raw.githubusercontent.com/kantlaw/Kantlaw/main/4f0a962300ed883b1403de6fbfeaa461.gif" alt="gif" width="100%"/>
+
+</div>
+
+<div align="center">
+
+`// From a foothold to Domain Admin.`
+
+</div>
 
 <img src="https://raw.githubusercontent.com/kantlaw/Kantlaw/main/4f0a962300ed883b1403de6fbfeaa461.gif" alt="gif" width="100%"/>
 
