@@ -190,13 +190,3 @@ Reporting & Remediation
 `// From a foothold to Domain Admin.`
 
 </div>
-
-<img src="https://raw.githubusercontent.com/kantlaw/Kantlaw/main/4f0a962300ed883b1403de6fbfeaa461.gif" alt="gif" width="100%"/>
-
-</div>
-
-<div align="center">
-
-`// From a foothold to Domain Admin — then make it safer.`
-
-</div>
