@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bitcount+Grid+Single+Ink&weight=700&size=32&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=WELCOME+TO+MY+PROFILE;AI+RED+TEAMER+%2F+PENTESTER;BREAKING+THINGS+TO+FIX+THEM;ADVERSARIAL+ML+%7C+LLM+SECURITY)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bitcount+Grid+Single+Ink&weight=700&size=32&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=WELCOME+TO+MY+PROFILE;RED+TEAM+OPERATOR+%2F+PENTESTER;ACTIVE+DIRECTORY+%7C+LATERAL+MOVEMENT;BREAKING+THINGS+TO+FIX+THEM;AI+RED+TEAMING+%7C+LLM+SECURITY)](https://git.io/typing-svg)
 
 </div>
 
@@ -12,15 +12,19 @@
 
 ```python
 class Kantlaw:
-    role     = ["AI Red Teamer", "Pentester", "AI Security Researcher"]
-    focus    = ["Adversarial ML", "LLM Security", "Web Exploitation",
-                "Agentic AI Threats", "RAG Poisoning"]
-    certs    = ["CyberWarfare AD-RTS", "HackNode Ethical Hacker"]
-    stack    = ["Python", "Burp Suite", "Garak", "PyRIT", "MITRE ATLAS"]
-    motto    = "Break AI to make AI safer."
+    role     = ["Red Team Operator", "Penetration Tester",
+                "AI Security Researcher"]
+    focus    = ["Active Directory Attacks", "Lateral Movement",
+                "Privilege Escalation", "Web Exploitation",
+                "Adversarial ML", "LLM Security"]
+    certs    = ["CRTA — Certified Red Team Analyst"]
+    learning = ["HTB CPTS (in progress)", "Kerberos Attacks"]
+    stack    = ["Impacket", "BloodHound", "NetExec", "Burp Suite",
+                "Rubeus", "Python", "Garak", "PyRIT"]
+    motto    = "From a foothold to Domain Admin — then make it safer."
 
     def current_mission(self):
-        return "Mapping the attack surface of autonomous AI agents."
+        return "Mastering full-scope AD compromise on the road to CPTS."
 ```
 
 <br clear="right"/>
@@ -33,51 +37,53 @@ class Kantlaw:
 <tr>
 <td align="center" width="33%">
 
-**🔴 AI Red Teaming**
+**🔴 Red Team & AD**
 <br/><br/>
-Prompt Injection · Jailbreaking
+Active Directory Enumeration
 <br/>
-Adversarial Inputs · Model Abuse
+Kerberoasting · AS-REP Roasting
 <br/>
-Multi-turn Exploitation
+ACL Abuse · DCSync
 <br/>
-Indirect Prompt Injection
+Lateral Movement · Pass-the-Hash
 <br/>
-Tool-use & Agent Hijacking
+Pivoting & Tunneling
 <br/>
-OWASP LLM Top 10
+Credential Harvesting
 
 </td>
 <td align="center" width="33%">
 
 **🌐 Pentesting & AppSec**
 <br/><br/>
-Web Exploitation · LFI/RFI
+Web Exploitation · SQLi
 <br/>
-File Upload Bypass · JWT Attacks
+LFI/RFI · File Upload Bypass
 <br/>
-SSTI · Log Poisoning
+Command Injection · SSTI
+<br/>
+Auth Bypass · IDOR
 <br/>
 API Security · SSRF
 <br/>
-Auth Bypass · IDOR
+JWT Attacks
 
 </td>
 <td align="center" width="33%">
 
-**🛡️ AI Security & Defense**
+**🤖 AI Red Teaming**
 <br/><br/>
-MITRE ATLAS · Garak · PyRIT
+Prompt Injection · Jailbreaking
 <br/>
-LLM Auditing · RAG Security
+Indirect PI via RAG / API
+<br/>
+Tool-use & Agent Hijacking
 <br/>
 Guardrail Evasion Testing
 <br/>
-AI Supply Chain Risks
+OWASP LLM Top 10
 <br/>
-AI Blue Team Ops
-<br/>
-OWASP Top 10 for Agentic Apps
+MITRE ATLAS
 
 </td>
 </tr>
@@ -85,28 +91,26 @@ OWASP Top 10 for Agentic Apps
 
 ---
 
-### 🧪 Attack Surface: AI/LLM Threat Map
+### ⛓️ Red Team Kill Chain
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    AI / LLM ATTACK SURFACE                      │
-├─────────────┬───────────────────┬───────────────────────────────┤
-│  INPUT      │  MODEL            │  OUTPUT                       │
-│             │                   │                               │
-│ ► Prompt    │ ► Training Data   │ ► Sensitive Data Disclosure   │
-│   Injection │   Poisoning       │ ► Hallucination Exploitation  │
-│ ► Jailbreak │ ► Model Theft /   │ ► Insecure Output Handling    │
-│ ► Indirect  │   Extraction      │ ► Excessive Agency            │
-│   PI via    │ ► Fine-tuning     │ ► Uncontrolled Code Exec      │
-│   RAG / API │   Backdoors       │                               │
-├─────────────┼───────────────────┤                               │
-│  AGENTS     │  SUPPLY CHAIN     │                               │
-│             │                   │                               │
-│ ► Tool      │ ► Dependency      │                               │
-│   Hijacking │   Confusion       │                               │
-│ ► MCP       │ ► Plugin / MCP    │                               │
-│   Poisoning │   Compromise      │                               │
-└─────────────┴───────────────────┴───────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────┐
+│                     FULL-SCOPE ENGAGEMENT                        │
+├───────────────┬───────────────────┬──────────────────────────────┤
+│  RECON        │  FOOTHOLD         │  PRIVILEGE ESCALATION        │
+│               │                   │                              │
+│ ► Nmap /      │ ► Web Exploits    │ ► SeImpersonate / Potato     │
+│   Service enum│   (SQLi, Upload)  │ ► Linux / Windows local PE   │
+│ ► OSINT       │ ► LLMNR Poisoning │ ► ACL Abuse (GenericAll...)  │
+│ ► Attack Surf.│ ► Password Spray  │ ► Credential Harvesting      │
+├───────────────┼───────────────────┼──────────────────────────────┤
+│  LATERAL      │  DOMAIN DOMINANCE │  OBJECTIVE                   │
+│               │                   │                              │
+│ ► Pass-the-   │ ► Kerberoasting   │ ► Data Exfiltration          │
+│   Hash / Tkt  │ ► DCSync          │ ► secret.xml / flags         │
+│ ► Pivoting    │ ► Golden Ticket   │ ► Persistence                │
+│   (SOCKS)     │ ► krbtgt extract  │ ► Report & Remediation       │
+└───────────────┴───────────────────┴──────────────────────────────┘
 ```
 
 ---
@@ -115,6 +119,21 @@ OWASP Top 10 for Agentic Apps
 
 <table>
 <tr>
+<td width="50%">
+
+**Traditional Offensive**
+<br/><br/>
+🔸 PTES (Penetration Testing Standard)
+<br/>
+🔸 MITRE ATT&CK
+<br/>
+🔸 OWASP Testing Guide / Top 10
+<br/>
+🔸 Active Directory Attack Paths
+<br/>
+🔸 CWE / CVE Research
+
+</td>
 <td width="50%">
 
 **Offensive AI**
@@ -130,19 +149,6 @@ OWASP Top 10 for Agentic Apps
 🔸 AI Vulnerability Taxonomy (AVID)
 
 </td>
-<td width="50%">
-
-**Traditional Offensive**
-<br/><br/>
-🔸 OWASP Testing Guide / Top 10
-<br/>
-🔸 MITRE ATT&CK
-<br/>
-🔸 PTES (Penetration Testing Standard)
-<br/>
-🔸 CWE / CVE Research
-
-</td>
 </tr>
 </table>
 
@@ -150,23 +156,23 @@ OWASP Top 10 for Agentic Apps
 
 ### 🛠️ Skills & Tools
 
-**Offensive & AI Security**
+**Red Team & Pentesting**
 
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-000000?style=for-the-badge&logo=kali-linux&logoColor=00D4FF)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-000000?style=for-the-badge&logo=burpsuite&logoColor=00D4FF)
-![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00D4FF)
+![BloodHound](https://img.shields.io/badge/BloodHound-000000?style=for-the-badge&logo=hackthebox&logoColor=00D4FF)
 ![Metasploit](https://img.shields.io/badge/Metasploit-000000?style=for-the-badge&logo=metasploit&logoColor=00D4FF)
 ![Wireshark](https://img.shields.io/badge/Wireshark-000000?style=for-the-badge&logo=wireshark&logoColor=00D4FF)
 ![Nmap](https://img.shields.io/badge/Nmap-000000?style=for-the-badge&logo=nmap&logoColor=00D4FF)
 
 **AI & LLM Tooling**
 
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=00D4FF)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-000000?style=for-the-badge&logo=huggingface&logoColor=00D4FF)
-![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=00D4FF)
-![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=for-the-badge&logo=pytorch&logoColor=00D4FF)
 ![Garak](https://img.shields.io/badge/Garak-000000?style=for-the-badge&logo=gnubash&logoColor=00D4FF)
 ![PyRIT](https://img.shields.io/badge/PyRIT-000000?style=for-the-badge&logo=microsoft&logoColor=00D4FF)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-000000?style=for-the-badge&logo=huggingface&logoColor=00D4FF)
+![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00D4FF)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=00D4FF)
+![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=for-the-badge&logo=pytorch&logoColor=00D4FF)
 
 **Workflow**
 
@@ -180,9 +186,8 @@ OWASP Top 10 for Agentic Apps
 
 ### 🏅 Certifications & Platforms
 
-[![CyberWarfare](https://img.shields.io/badge/CyberWarfare-AD--RTS-000000?style=for-the-badge&logo=hackaday&logoColor=00D4FF)](https://cyberwarfare.live)
-[![HackNode](https://img.shields.io/badge/HackNode-Ethical_Hacker-000000?style=for-the-badge&logo=hackthebox&logoColor=00D4FF)](https://hacknode.net)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox-Active-000000?style=for-the-badge&logo=hackthebox&logoColor=00D4FF)](https://app.hackthebox.com)
+[![CRTA](https://img.shields.io/badge/CyberWarfare-CRTA_Certified_Red_Team_Analyst-000000?style=for-the-badge&logo=hackaday&logoColor=00D4FF)](https://cyberwarfare.live)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-CPTS_in_progress-000000?style=for-the-badge&logo=hackthebox&logoColor=00D4FF)](https://app.hackthebox.com)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Active-000000?style=for-the-badge&logo=tryhackme&logoColor=00D4FF)](https://tryhackme.com/p/Kantlaw)
 
 ---
@@ -191,11 +196,11 @@ OWASP Top 10 for Agentic Apps
 
 ```
  ╔══════════════════════════════════════════════════════════╗
- ║  > Agentic AI attack chains & tool-use exploitation     ║
- ║  > RAG poisoning & retrieval manipulation               ║
- ║  > MCP server security & plugin trust boundaries        ║
+ ║  > Full-scope Active Directory compromise (CPTS prep)   ║
+ ║  > Advanced Kerberos attacks & delegation abuse         ║
+ ║  > Pivoting, tunneling & multi-host lateral movement    ║
+ ║  > AI red teaming: prompt injection & agent hijacking   ║
  ║  > Automated red teaming pipelines (Garak + PyRIT)      ║
- ║  > AI supply chain & model integrity verification       ║
  ╚══════════════════════════════════════════════════════════╝
 ```
 
@@ -209,6 +214,6 @@ OWASP Top 10 for Agentic Apps
 
 <div align="center">
 
-`// Break AI to make AI safer.`
+`// From a foothold to Domain Admin — then make it safer.`
 
 </div>
